@@ -1,4 +1,4 @@
-﻿
+
 // Windows 헤더 파일
 #include <windows.h>
 // C 런타임 헤더 파일입니다.
@@ -10,12 +10,7 @@
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 
-// 이 코드 모듈에 포함된 함수의 선언을 전달합니다:
-ATOM                MyRegisterClass(HINSTANCE hInstance);
-BOOL                InitInstance(HINSTANCE, int);
-LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
-INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
-
+// 메인부분
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
                      _In_ LPWSTR    lpCmdLine,
