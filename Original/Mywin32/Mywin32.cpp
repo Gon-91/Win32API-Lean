@@ -10,7 +10,11 @@
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 
-// 메인부분
+// 이 코드 모듈에 포함된 함수의 선언을 전달합니다:
+
+LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
+
+
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
                      _In_ LPWSTR    lpCmdLine,
