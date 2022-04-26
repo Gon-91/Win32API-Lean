@@ -1,0 +1,2 @@
+D:\WindowsAPI\1.Example\1.ColorTable\ColorTable\Debug\ColorTable.exe
+D:\WindowsAPI\1.Example\2.Position\1.MousePosition\Debug\MousePosition.exe

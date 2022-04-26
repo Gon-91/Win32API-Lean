@@ -1,0 +1,7 @@
+﻿  MySource.cpp
+  Paint.cpp
+  Generating Code...
+Paint.obj : error LNK2019: unresolved external symbol "unsigned short __cdecl InitProject(struct HINSTANCE__ *,__int64 (__cdecl*)(struct HWND__ *,unsigned int,unsigned __int64,__int64),wchar_t const *)" (?InitProject@@YAGPEAUHINSTANCE__@@P6A_JPEAUHWND__@@I_K_J@ZPEB_W@Z) referenced in function wWinMain
+    Hint on symbols that are defined and could potentially match:
+      "unsigned short __cdecl InitProject(struct HINSTANCE__ *,__int64 (__cdecl*)(struct HWND__ *,unsigned int,unsigned __int64,__int64),wchar_t *)" (?InitProject@@YAGPEAUHINSTANCE__@@P6A_JPEAUHWND__@@I_K_J@ZPEA_W@Z)
+D:\WindowsAPI\1.Example\3.Paint\Paint\x64\Debug\Paint.exe : fatal error LNK1120: 1 unresolved externals
